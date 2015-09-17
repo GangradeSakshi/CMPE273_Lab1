@@ -1,0 +1,8 @@
+Defer is used to schedule a function call to be run after it is completed.
+The function on which defer method is used, the call for the function moves to the end.
+
+Panic is a programming error for example out of bound exception or any other exceptional condition.
+
+Recover is used to handle run time panic.
+It stops the panic and can be used to recover the value that was passed to panic.
+To recover from runtime panic write a recover method inside defer statement.
